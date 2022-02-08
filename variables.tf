@@ -1,0 +1,10 @@
+variable "instance_type" {}
+variable "ami" {}
+variable "instancecount" {}
+variable "volumecount" {}
+variable "ec2name" {}
+variable "rootvolumename" {}
+variable "ebsvolumename" {}
+variable "devicename" {}
+variable "keyname" {}
+variable "zone" {}
