@@ -1,13 +1,7 @@
 provider "aws" {
-  version = ">= 3.20.0"
-
+ region = "ap-south-1"
 }
 
 
-terraform {
-  required_providers {
-    consul = ">= 2.4.0"
-  }
-}
 
 
